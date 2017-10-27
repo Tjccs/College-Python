@@ -1,0 +1,21 @@
+import sys
+import os
+from multiprocessing import Process, Value, Array
+
+ar2 = []
+argm = int(sys.argv[1])
+
+def func_tab(argm):
+    global ar2
+    global ar
+    for i in range(11):
+        sm = argm * i
+        ar2.append(sm)
+    ar = Array("i", ar2)
+        
+newT = Process(target=func_tab(argm))
+newT.start()
+newT.join()
+
+for i in range(11):
+    print argm,'*',i,'=',ar[i]

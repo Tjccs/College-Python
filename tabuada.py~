@@ -1,0 +1,13 @@
+import os
+from multiprocessing import Process, Value, Array
+
+ar = Array("i",0)
+argm = int(sys.argv[1])
+
+def func_tab(argm):
+    global ar
+    for i in range(11):
+        sm = argm * i
+        ar.append(sm)
+
+print ar
