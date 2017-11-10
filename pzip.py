@@ -3,19 +3,23 @@
 import os
 import sys
 from multiprocessing import Process, Value
+from threading import Semaphore, Thread
 import zipfile
 import argparse
 
-count = Value('i',0)
+
 def pyzip(args,t=False):
         global count
+        
         if t==True:
                 try:
                         for files in args:
                                 if os.path.isfile(files):
                                         with zipfile.ZipFile(files+'.zip', mode='w') as zf:
                                                 zf.write(files)
+                                                
                                                 count.value += 1
+                                                
                                 else:
                                      raise IOError 
                 except:
@@ -24,11 +28,14 @@ def pyzip(args,t=False):
         else:
                 for files in args:
                         if os.path.isfile(files):
+                                
                                 with zipfile.ZipFile(files+'.zip', mode='w') as zf:
                                         zf.write(files)
+                                        
                                         count.value += 1
-                        
+                                        
 def pyunzip(args,t=False):
+        sem.acquire()
         global count
         if t==True:
                 try:
@@ -48,7 +55,7 @@ def pyunzip(args,t=False):
                                 with zipfile.ZipFile(files+'.zip', mode='w') as zf:
                                         zf.write(files)
                                         count.value += 1
-
+        sem.release()
 
 
 if __name__ == '__main__':
@@ -60,7 +67,8 @@ if __name__ == '__main__':
         parser.add_argument('-t', action='store_const', dest='targ', const=True)
         parser.add_argument('{ficheiros}', nargs='*')    
         args = parser.parse_args()
-
+        count = Value('i',0)
+        sem = Semaphore()
         #lista dos processos
         processes = []
 
