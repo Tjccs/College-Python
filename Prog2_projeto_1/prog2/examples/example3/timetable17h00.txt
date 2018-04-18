@@ -1,0 +1,18 @@
+Day:
+02:11:2017
+Time:
+17:00
+Company:
+NSHF
+Timetable:
+16:55, Artemis Pachis, not-assigned
+16:55, Constantin Nicolas, not-assigned
+16:55, David Larenz, Jeremias Schlender
+16:55, Kyriaki Megalos, Theodosia Antonis
+16:55, Virginie Rousseau, Thierry Duval
+16:57, Christiane Tremble, Heloise Joubert
+17:01, Solange Leblanc, Laurentin Bourreau
+17:02, Konstantina Antonis, Agathe Papadopoulos
+17:06, Viktoria Baumgartner, Gerda Ackermann
+17:12, Caroline Hildebrand, Jeremias Schlender
+17:14, Yolande Durand, Heloise Joubert

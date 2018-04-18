@@ -1,0 +1,15 @@
+Day:
+02:11:2017
+Time:
+17:00
+Company:
+NSHF
+Operators:
+Mirabelle Leclerc, french, (laptops), 16:57, 198
+Theodosia Antonis, greek, (cameras; phones), 17:15, 235
+Thierry Duval, french, (laptops; phones), 17:15, 133
+Jeremias Schlender, german, (cameras; phones), 17:25, 45
+Gerda Ackermann, german, (hifi), 17:26, 240
+Laurentin Bourreau, french, (cameras; laptops), 17:31, 230
+Agathe Papadopoulos, greek, (phones), 17:32, 170
+Heloise Joubert, french, (laptops; phones), 17:34, 235

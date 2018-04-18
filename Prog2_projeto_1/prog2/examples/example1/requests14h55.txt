@@ -1,0 +1,10 @@
+Day:
+06:11:2017
+Time:
+14:55
+Company:
+NSHF
+Requests:
+Henry Miller, english, laptops, premium, 3
+Francois Greenwich, spanish, cameras, premium, 6
+Ricardo Carvalho, portuguese, refrigerators, premium, 2

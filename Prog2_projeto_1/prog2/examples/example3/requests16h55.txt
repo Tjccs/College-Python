@@ -1,0 +1,18 @@
+Day:
+02:11:2017
+Time:
+16:55
+Company:
+NSHF
+Requests:
+Artemis Pachis, greek, cameras, fremium, 15
+Caroline Hildebrand, german, phones, fremium, 13
+Christiane Tremble, french, laptops, fremium, 17
+Konstantina Antonis, greek, phones, premium, 30
+Virginie Rousseau, french, laptops, premium, 20
+David Larenz, german, phones, premium, 17
+Yolande Durand, french, phones, fremium, 20
+Kyriaki Megalos, greek, cameras, premium, 20
+Constantin Nicolas, french, cameras, fremium, 25
+Viktoria Baumgartner, german, hifi, premium, 20
+Solange Leblanc, french, cameras, premium, 30

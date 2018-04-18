@@ -1,0 +1,12 @@
+Day:
+06:11:2017
+Time:
+15:00
+Company:
+NSHF
+Operators:
+Ricardo Tavares, portuguese, (mobiles; printers), 14:15, 42
+Giovanni Olivetti, italian, (laptops; bimby; hifi), 14:52, 21
+Carl Thompson, english, (laptops), 14:58, 57
+Nuria Castro, spanish, (cameras; hifi), 15:01, 43
+Georg Muller, deutsch, (cameras), 15:05, 31

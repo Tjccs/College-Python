@@ -1,0 +1,16 @@
+Day:
+04:11:2017
+Time:
+11:10
+Company:
+NSHF
+Timetable:
+11:05, Dulce Chaves, Atilio Moreno
+11:05, Feliciano Santos, not-assigned
+11:05, Otavio Santiago, Leticia Ferreira
+11:05, Rafael Kaluza, not-assigned
+11:06, Christina Holtzer, Ruth Falk
+11:11, Dina Silveira, Mariana Santana
+11:13, Andrej Hlavac, Zdenka Sedlak
+11:20, Nuno Rodrigues, Atilio Moreno
+11:20, Sabina Rosario, Leticia Ferreira
